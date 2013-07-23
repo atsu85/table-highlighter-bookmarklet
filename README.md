@@ -5,7 +5,7 @@ You can also highlight table columns by clicking on the header of the table.
 
 ## Installation:
 
-Drag the 'Add table row/column highlighting' link from the [bookmarklet page](https://raw.github.com/atsu85/table-highlighter-bookmarklet/master/table-bookmarklet-src.js) to your web browser bookmark bar. 
+Drag the 'Add table row/column highlighting' link from the [bookmarklet page](https://raw.github.com/atsu85/table-highlighter-bookmarklet/master/table-bookmarklet.html) to your web browser bookmark bar. 
 
 ## Usage:
 
