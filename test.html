@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+  <a style="font-size: 16pt"
+    href='javascript:(function() {
+  function onJQueryLoaded() {
+    loadScript("https://raw.github.com/atsu85/table-highlighter-bookmarklet/master/table-bookmarklet-src.js", onTableHighlighterLoaded);
+  }
+  function onTableHighlighterLoaded() {
+    addTableHighlighter();
+  }
+  function loadScript(src, callbackFn) {
+    var s = document.createElement("script");
+    s.src = src;
+    if (s.addEventListener) {
+      s.addEventListener("load", callbackFn, false);
+    } else if (s.readyState) {
+      s.onreadystatechange = callbackFn;
+    }
+    document.body.appendChild(s);
+  }
+  loadScript("https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js", onJQueryLoaded);
+})();'>Add table row/column highlighting</a>
+</body>
+</html>
