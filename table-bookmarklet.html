@@ -1,31 +1,15 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
-Drag following link
-  <a style="font-size: 16pt"
-    href='javascript:(function() {
-  function onJQueryLoaded() {
-    loadScript("https://raw.github.com/atsu85/table-highlighter-bookmarklet/master/table-bookmarklet-src.js", onTableHighlighterLoaded);
-  }
-  function onTableHighlighterLoaded() {
-    addTableHighlighter();
-  }
-  function loadScript(src, callbackFn) {
-    var s = document.createElement("script");
-    s.src = src;
-    if (s.addEventListener) {
-      s.addEventListener("load", callbackFn, false);
-    } else if (s.readyState) {
-      s.onreadystatechange = callbackFn;
-    }
-    document.body.appendChild(s);
-  }
-  loadScript("https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js", onJQueryLoaded);
-})();'>Add table row/column highlighting</a>
-to bookmarks toolbar of your browser and click on that bookmark when you want to be able to highlight table rows or columns
-</body>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Insert title here</title>
+  </head>
+  <body>
+    Drag following link
+    <a style="font-size: 16pt"
+      href='javascript:(function()%7Bfunction%20onJQueryLoaded()%20%7BloadScript(%22https%3A%2F%2Fraw.github.com%2Fatsu85%2Ftable-highlighter-bookmarklet%2Fmaster%2Ftable-bookmarklet-src.js%22%2C%20onTableHighlighterLoaded)%3B%7Dfunction%20onTableHighlighterLoaded()%20%7BaddTableHighlighter()%3B%7Dfunction%20loadScript(src%2C%20callbackFn)%20%7Bvar%20s%20%3D%20document.createElement(%22script%22)%3Bs.src%20%3D%20src%3Bif%20(s.addEventListener)%20%7Bs.addEventListener(%22load%22%2C%20callbackFn%2C%20false)%3B%7D%20else%20if%20(s.readyState)%20%7Bs.onreadystatechange%20%3D%20callbackFn%3B%7Ddocument.body.appendChild(s)%3B%7DloadScript(%22https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fjquery%2F1.7.1%2Fjquery.min.js%22%2C%20onJQueryLoaded)%7D)()'>
+        Add table row/column highlighting
+    </a>
+    to bookmarks toolbar of your browser and click on that bookmark when you want to be able to highlight table rows or columns
+  </body>
 </html>
